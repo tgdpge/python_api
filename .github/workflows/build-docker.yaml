@@ -19,3 +19,4 @@ jobs:
       run: docker build . --file Dockerfile --tag tgdpge/python_api:$(date +%y-%m-%d_%H-%M)
     - name: Docker push
       run: docker push tgdpge/python_api:$(date +%y-%m-%d_%H-%M)
+      
